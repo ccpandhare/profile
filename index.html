@@ -3,144 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Chinmay Pandhare - Software Engineer • Pilot? Living in London, UK. Originally from Mumbai.">
+  <meta name="author" content="Chinmay Pandhare">
+  <meta name="keywords" content="Chinmay Pandhare, Software Engineer, Pilot, London, Mumbai, Developer">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://chinmaypandhare.uk/">
+  <meta property="og:title" content="Chinmay Pandhare - Software Engineer • Pilot?">
+  <meta property="og:description" content="Software Engineer • Pilot? Living in London, UK. Originally from Mumbai.">
+  <meta property="og:image" content="https://chinmaypandhare.uk/profile.jpeg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary">
+  <meta property="twitter:url" content="https://chinmaypandhare.uk/">
+  <meta property="twitter:title" content="Chinmay Pandhare - Software Engineer • Pilot?">
+  <meta property="twitter:description" content="Software Engineer • Pilot? Living in London, UK. Originally from Mumbai.">
+  <meta property="twitter:image" content="https://chinmaypandhare.uk/profile.jpeg">
+
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-  <title>Chinmay Pandhare - Software Engineer</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-      line-height: 1.6;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      padding: 1rem;
-      background: #fafafa;
-    }
-
-    main {
-      flex: 1;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      max-width: 600px;
-      width: 100%;
-      margin: 0 auto;
-      padding: 2rem 0;
-    }
-
-    .profile-card {
-      background: white;
-      border-radius: 16px;
-      padding: 3rem 2rem;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-      text-align: center;
-      width: 100%;
-    }
-
-    .profile-picture {
-      width: 120px;
-      height: 120px;
-      border-radius: 50%;
-      margin: 0 auto 1.5rem;
-      object-fit: cover;
-      border: 3px solid #f0f0f0;
-    }
-
-    h1 {
-      font-size: clamp(1.75rem, 4vw, 2.5rem);
-      margin-bottom: 0.5rem;
-      color: #111;
-    }
-
-    .title {
-      font-size: 1.1rem;
-      color: #666;
-      margin-bottom: 0.5rem;
-    }
-
-    .location {
-      font-size: 1rem;
-      color: #888;
-      margin-bottom: 1.5rem;
-    }
-
-    .bio {
-      font-size: 1rem;
-      color: #444;
-      margin-bottom: 2rem;
-      line-height: 1.7;
-    }
-
-    .socials {
-      display: flex;
-      flex-direction: column;
-      gap: 0.75rem;
-      margin-bottom: 1rem;
-    }
-
-    .social-link {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 0.75rem;
-      padding: 0.875rem 1.5rem;
-      background: #f5f5f5;
-      color: #111;
-      text-decoration: none;
-      border-radius: 8px;
-      font-weight: 500;
-      transition: all 0.2s ease;
-      border: 1px solid transparent;
-    }
-
-    .social-link:hover {
-      background: #000;
-      color: #fff;
-      border-color: #000;
-      transform: translateY(-2px);
-    }
-
-    .social-icon {
-      width: 20px;
-      height: 20px;
-    }
-
-    footer {
-      text-align: center;
-      padding: 2rem 1rem;
-      color: #666;
-      font-size: 0.9rem;
-      max-width: 600px;
-      margin: 0 auto;
-      width: 100%;
-    }
-
-    /* Mobile responsiveness */
-    @media (max-width: 768px) {
-      body {
-        padding: 0.5rem;
-      }
-
-      .profile-card {
-        padding: 2rem 1.5rem;
-      }
-
-      .profile-picture {
-        width: 100px;
-        height: 100px;
-      }
-
-      footer {
-        font-size: 0.8rem;
-        padding: 1.5rem 0.5rem;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="/style.css">
+  <title>Chinmay Pandhare - Software Engineer • Pilot?</title>
 </head>
 <body>
   <main>
@@ -149,7 +34,7 @@
       <h1>Chinmay Pandhare</h1>
       <p class="title">Software Engineer • Pilot?</p>
       <p class="location">London, UK • from Mumbai</p>
-      <p class="bio">I love building cool stuff. Regina Liu is my best friend.</p>
+      <p class="bio">I love building cool stuff. <span style="opacity: 0;">Regina Liu is my best friend.</span></p>
 
       <div class="socials">
         <a href="https://github.com/ccpandhare" class="social-link" target="_blank" rel="noopener noreferrer">
